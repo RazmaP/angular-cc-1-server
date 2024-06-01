@@ -147,8 +147,7 @@ app.put("/clothes/:id", (req, res) => {
   });
 });
 
-// DELETE route - Allows to delete an item
-// example: localhost:3000/clothes/1
+
 app.delete("/clothes/:id", (req, res) => {
   const id = parseInt(req.params.id);
 
